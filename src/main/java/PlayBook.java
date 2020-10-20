@@ -1,10 +1,12 @@
 import java.io.*;
 import java.net.*;
+
 public class PlayBook {
     public static void main(String args[]) {
 // declaration section:
 // declare a server socket and a client socket for the server
 // declare an input and an output stream
+        System.out.println("Main thread beginning...");
         ServerSocket echoServer = null;
         String line;
         // DataInputStream is;
@@ -16,6 +18,7 @@ public class PlayBook {
 // privileged users (root)
         try {
             echoServer = new ServerSocket(9999);
+            System.out.println("Starting ServerSocket : "+echoServer.toString());
         }
         catch (IOException e) {
             System.out.println(e);
@@ -25,6 +28,8 @@ public class PlayBook {
 // Open input and output streams
         try {
             clientSocket = echoServer.accept();
+            System.out.println("Client socket : "+clientSocket.toString());
+
             // is = new DataInputStream(clientSocket.getInputStream());
             is = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             os = new PrintStream(clientSocket.getOutputStream());
@@ -38,9 +43,9 @@ public class PlayBook {
             }
 
 
-        }
-        catch (IOException e) {
+        }catch (IOException e) {
             System.out.println(e);
         }
+        System.out.println("Main thread ending...");
     }
 }

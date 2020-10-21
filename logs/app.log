@@ -180,3 +180,10 @@
 22:55:27.178 INFO ClientChatRoom [Thread-2] ClientRoom is shutting down
 22:55:27.178 INFO ServerChatRoom [Thread-1] Localhost server is running at port:9999
 22:55:32.179 INFO ServerChatRoom [Thread-1] ServerRoom is shutting down
+22:59:34.398 INFO ServerChatRoom [main] Localhost server is starting at port:9999
+22:59:34.404 INFO ClientChatRoom [main] Connecting to server at : localhost:9999
+22:59:34.405 INFO ClientChatRoom [Thread-2] Reading bytes from inputStream...
+22:59:34.408 INFO ClientChatRoom [Thread-2] Ending reading from inputStream
+22:59:34.408 INFO ServerChatRoom [Thread-1] Localhost server is running at port:9999
+22:59:34.409 INFO ClientChatRoom [Thread-2] ClientRoom is shutting down
+22:59:39.409 INFO ServerChatRoom [Thread-1] ServerRoom is shutting down

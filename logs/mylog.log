@@ -1,0 +1,3 @@
+21:05:51.579 [main] ERROR ServerChatRoom - Failed to start server at <> localhost:999
+21:05:51.584 [main] ERROR ServerChatRoom - Error message : Permission denied (Bind failed)
+21:05:51.585 [main] ERROR ServerChatRoom - Error stack : [java.net.PlainSocketImpl.socketBind(Native Method), java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387), java.net.ServerSocket.bind(ServerSocket.java:375), java.net.ServerSocket.<init>(ServerSocket.java:237), java.net.ServerSocket.<init>(ServerSocket.java:128), ServerChatRoom.setServerConfig(ServerChatRoom.java:33), ServerChatRoom.<init>(ServerChatRoom.java:27), PlayBook.main(PlayBook.java:7)]

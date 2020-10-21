@@ -133,3 +133,50 @@
 22:31:00.677 INFO ClientChatRoom [Thread-2] Reading bytes from inputStream...
 22:31:00.680 INFO ServerChatRoom [Thread-1] Localhost server is running at port:9999
 22:31:05.681 INFO ServerChatRoom [Thread-1] ServerRoom is shutting down
+22:47:15.385 INFO ServerChatRoom [main] Localhost server is starting at port:9999
+22:47:15.391 INFO ClientChatRoom [main] Connecting to server at : localhost:9999
+22:47:15.391 INFO ClientChatRoom [Thread-2] Reading bytes from inputStream...
+22:47:15.396 INFO ServerChatRoom [Thread-1] Localhost server is running at port:9999
+22:47:15.398 INFO ClientChatRoom [Thread-2] Ending reading from inputStream
+22:47:15.398 INFO ClientChatRoom [Thread-2] ClientRoom is shutting down
+22:47:20.397 INFO ServerChatRoom [Thread-1] ServerRoom is shutting down
+22:49:33.766 INFO ServerChatRoom [main] Localhost server is starting at port:9999
+22:49:33.773 INFO ClientChatRoom [main] Connecting to server at : localhost:9999
+22:49:33.773 INFO ClientChatRoom [Thread-2] Reading bytes from inputStream...
+22:49:33.778 INFO ClientChatRoom [Thread-2] Ending reading from inputStream
+22:49:33.778 INFO ClientChatRoom [Thread-2] ClientRoom is shutting down
+22:49:33.777 INFO ServerChatRoom [Thread-1] Localhost server is running at port:9999
+22:49:38.779 INFO ServerChatRoom [Thread-1] ServerRoom is shutting down
+22:51:30.433 INFO ServerChatRoom [main] Localhost server is starting at port:9999
+22:51:30.439 INFO ClientChatRoom [main] Connecting to server at : localhost:9999
+22:51:30.440 INFO ClientChatRoom [Thread-2] Reading bytes from inputStream...
+22:51:30.443 INFO ClientChatRoom [Thread-2] Ending reading from inputStream
+22:51:30.443 INFO ClientChatRoom [Thread-2] ClientRoom is shutting down
+22:51:30.442 INFO ServerChatRoom [Thread-1] Localhost server is running at port:9999
+22:51:35.444 INFO ServerChatRoom [Thread-1] ServerRoom is shutting down
+22:53:39.708 INFO ServerChatRoom [main] Localhost server is starting at port:9999
+22:53:39.713 INFO ClientChatRoom [main] Connecting to server at : localhost:9999
+22:53:39.714 INFO ClientChatRoom [Thread-2] Reading bytes from inputStream...
+22:53:39.717 INFO ServerChatRoom [Thread-1] Localhost server is running at port:9999
+22:53:44.719 INFO ServerChatRoom [Thread-1] ServerRoom is shutting down
+22:54:06.674 INFO ServerChatRoom [main] Localhost server is starting at port:9999
+22:54:06.680 INFO ClientChatRoom [main] Connecting to server at : localhost:9999
+22:54:06.681 INFO ClientChatRoom [Thread-2] Reading bytes from inputStream...
+22:54:06.684 INFO ClientChatRoom [Thread-2] Ending reading from inputStream
+22:54:06.684 INFO ClientChatRoom [Thread-2] ClientRoom is shutting down
+22:54:06.684 INFO ServerChatRoom [Thread-1] Localhost server is running at port:9999
+22:54:11.685 INFO ServerChatRoom [Thread-1] ServerRoom is shutting down
+22:54:18.374 INFO ServerChatRoom [main] Localhost server is starting at port:9999
+22:54:18.380 INFO ClientChatRoom [main] Connecting to server at : localhost:9999
+22:54:18.381 INFO ClientChatRoom [Thread-2] Reading bytes from inputStream...
+22:54:18.384 INFO ClientChatRoom [Thread-2] Ending reading from inputStream
+22:54:18.384 INFO ClientChatRoom [Thread-2] ClientRoom is shutting down
+22:54:18.384 INFO ServerChatRoom [Thread-1] Localhost server is running at port:9999
+22:54:23.385 INFO ServerChatRoom [Thread-1] ServerRoom is shutting down
+22:55:27.167 INFO ServerChatRoom [main] Localhost server is starting at port:9999
+22:55:27.174 INFO ClientChatRoom [main] Connecting to server at : localhost:9999
+22:55:27.175 INFO ClientChatRoom [Thread-2] Reading bytes from inputStream...
+22:55:27.178 INFO ClientChatRoom [Thread-2] Ending reading from inputStream
+22:55:27.178 INFO ClientChatRoom [Thread-2] ClientRoom is shutting down
+22:55:27.178 INFO ServerChatRoom [Thread-1] Localhost server is running at port:9999
+22:55:32.179 INFO ServerChatRoom [Thread-1] ServerRoom is shutting down

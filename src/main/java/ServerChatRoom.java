@@ -51,6 +51,7 @@ public class ServerChatRoom implements Runnable{
                 PrintWriter writer = new PrintWriter(output, true);
 
                 writer.println(new Date().toString());
+                writer.println("EOF"); // we use EOF as a trick to mark end of file or stream.
 
                 logger.info("Localhost server is running at port:"+serverPort);
             } catch (IOException e) {

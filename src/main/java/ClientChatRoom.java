@@ -60,14 +60,15 @@ public class ClientChatRoom implements Runnable {
 
     private void parsingBytesToString(BufferedReader input) throws IOException {
         int i=0;
-        String line;
-
-        while ((line = input.readLine()) != null && line.length()!=0) {
-//            line = input.readLine();
+        String line = input.readLine();
+        // we use EOF as a trick to mark end of file or stream.
+        while (line.compareToIgnoreCase("EOF") != 0) {
             System.out.println("Received From Server ...");
             System.out.println("ClientRoom : "+Thread.currentThread().getName());
             System.out.println("Line "+ i +" :"+line);
             i++;
+            // fetch next line for checking loop state
+            line = input.readLine();
         }
         logger.info("Ending reading from inputStream");
     }

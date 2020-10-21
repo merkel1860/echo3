@@ -19,17 +19,5 @@ public class PlayBook {
         Thread aThreadClient = new Thread(aClientChatRoom);
         aThreadClient.start();
 
-//        try {
-//            aThreadClient.join();
-//            aThreadServer.join();
-//        } catch (InterruptedException e) {
-//            logger.error("Synchronizing Client and Server to Main thread");
-//            logger.error(e.getMessage());
-//            logger.error(e.getStackTrace());
-//        }
-//
-//        if(!aThreadServer.isAlive()){
-//            aThreadClient.interrupt();
-//        }
     }
 }

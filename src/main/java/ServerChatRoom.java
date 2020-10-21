@@ -60,7 +60,7 @@ public class ServerChatRoom implements Runnable{
             }
 
             try {
-                Thread.sleep(10000);
+                Thread.sleep(5000);
             } catch (InterruptedException e) {
                 logger.error("Failed to pause at <> localhost:"+serverPort);
                 logger.error("Error message : "+e.getMessage());
